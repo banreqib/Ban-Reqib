@@ -3,8 +3,8 @@
   font-family: 'Malibu', sans-serif;
   margin: 0;
   padding: 0;
-  background: url('background.png') no-repeat center center fixed; /* Add your image here */
-  background-size: cover; /* Makes the image cover the entire screen */
+  background: url('https://github.com/banreqib/Ban-Reqib/blob/296d6064b4c09523fe93f0624904674354c9c473/assets/background.png') no-repeat center center fixed;
+  background-size: cover;
   color: #6c765a;
   display: flex;
   justify-content: center;
@@ -67,7 +67,7 @@
       padding: 10px;
       border-radius: 8px;
       transition: right 0.3s ease;
-      color: #6c765a;
+      color: ##6c765a;
     }
     .about-panel.open {
       bottom: 15px;

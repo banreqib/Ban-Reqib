@@ -7,26 +7,25 @@
   <link href="https://fonts.googleapis.com/css2?family=Malibu&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Malibu', sans-serif;
-      margin: 0;
-      padding: 0;
-      background: url('assets/background.png') no-repeat center center fixed; /* Updated background */
-      background-size: cover;
-      color: #6c765a;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      text-align: center;
-      flex-direction: column;
-    }
+  font-family: 'Malibu', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('https://github.com/banreqib/Ban-Reqib/blob/296d6064b4c09523fe93f0624904674354c9c473/assets/background.png') no-repeat center center fixed;
+  background-size: cover;
+  color: #6c765a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  flex-direction: column;
+}
 
     h1 {
       font-family: 'Malibu', cursive;
       font-size: 2.5rem;
       margin-bottom: 20px;
     }
-
     .profile-img {
       width: 200px;
       height: 200px;
@@ -34,24 +33,20 @@
       margin: 3px auto;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     }
-
     .links {
       margin: 15px 0;
       display: flex;
       justify-content: center;
       gap: 0px;
     }
-
     .links a img {
       width: 100px;
       height: 100px;
       transition: transform 0.3s ease;
     }
-
     .links a:hover img {
       transform: scale(1.1);
     }
-
     .about-btn {
       position: absolute;
       top: 15px;
@@ -65,11 +60,9 @@
       cursor: pointer;
       transition: background-color 0.3s ease;
     }
-
     .about-btn:hover {
       background: #777;
     }
-
     .about-panel {
       position: fixed;
       top: 15px;
@@ -81,25 +74,21 @@
       padding: 10px;
       border-radius: 8px;
       transition: right 0.3s ease;
-      color: #6c765a;
+      color: ##6c765a;
     }
-
     .about-panel.open {
       bottom: 15px;
       right: 15px;
     }
-
     .about-panel h2 {
       font-family: 'Malibu', sans-serif;
       margin-top: 0;
       font-size: 1rem;
     }
-
     .about-panel p {
       margin: 8px 0;
       font-size: 0.9rem;
     }
-
     .close-btn {
       background: #6c765a;
       color: #fff;
@@ -111,7 +100,6 @@
       margin-top: 8px;
       transition: background-color 0.3s ease;
     }
-
     .close-btn:hover {
       background: #777;
     }
@@ -119,19 +107,18 @@
 </head>
 <body>
   <div>
-    <img src="assets/personalphoto.jpg" alt="Profile Picture" class="profile-img"> <!-- Updated path -->
-
+    <img src="https://github.com/banreqib/Ban-Reqib/blob/296d6064b4c09523fe93f0624904674354c9c473/assets/personalphoto.jpg" alt="Profile Picture" class="profile-img">
     <h1><span style="color: #fff;">Ban Reqib</span></h1>
 
     <div class="links">
       <a href="https://www.linkedin.com/in/ban-reqib/" target="_blank" title="LinkedIn">
-        <img src="assets/linkedin.png" alt="LinkedIn"> <!-- Updated path -->
+        <img src="https://github.com/banreqib/Ban-Reqib/blob/296d6064b4c09523fe93f0624904674354c9c473/assets/linkedin.png" alt="LinkedIn">
       </a>
       <a href="https://github.com/banreqib" target="_blank" title="GitHub">
-        <img src="assets/github.png" alt="GitHub"> <!-- Updated path -->
+        <img src="https://github.com/banreqib/Ban-Reqib/blob/296d6064b4c09523fe93f0624904674354c9c473/assets/github.png" alt="GitHub">
       </a>
-      <a href="mailto:banreqib@gmail.com">
-        <img src="assets/email.png" alt="Email"> <!-- Updated path -->
+    <a href="mailto:banreqib@gmail.com">
+        <img src="https://github.com/banreqib/Ban-Reqib/blob/296d6064b4c09523fe93f0624904674354c9c473/assets/email.png" alt="Email">
       </a>
     </div>
   </div>
@@ -139,9 +126,10 @@
   <button class="about-btn" onclick="toggleAbout()">About Me</button>
 
   <div class="about-panel" id="aboutPanel">
-    <p><strong>About Me:</strong></p>
+    
+	<p><strong>About Me:</strong></p>
     <p>Hi..My name is Ban Alreqib!</p>
-    <br>
+	<br>
     <p><strong>Experience:</strong></p>
     <p>Internship, Clever Mind</p>
     <br>

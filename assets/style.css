@@ -67,7 +67,7 @@
       padding: 10px;
       border-radius: 8px;
       transition: right 0.3s ease;
-      color: ##6c765a;
+      color: #6c765a;
     }
     .about-panel.open {
       bottom: 15px;

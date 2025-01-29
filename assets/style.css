@@ -3,7 +3,7 @@
   font-family: 'Malibu', sans-serif;
   margin: 0;
   padding: 0;
-  background: url('bg2.png') no-repeat center center fixed; /* Add your image here */
+  background: url('background.png') no-repeat center center fixed; /* Add your image here */
   background-size: cover; /* Makes the image cover the entire screen */
   color: #6c765a;
   display: flex;

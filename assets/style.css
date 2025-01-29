@@ -3,8 +3,8 @@
   font-family: 'Malibu', sans-serif;
   margin: 0;
   padding: 0;
-  background: url('https://github.com/banreqib/Ban-Reqib/blob/296d6064b4c09523fe93f0624904674354c9c473/assets/background.png') no-repeat center center fixed;
-  background-size: cover;
+  background: url('assets/background.png') no-repeat center center fixed; /* Add your image here */
+  background-size: cover; /* Makes the image cover the entire screen */
   color: #6c765a;
   display: flex;
   justify-content: center;
@@ -67,7 +67,7 @@
       padding: 10px;
       border-radius: 8px;
       transition: right 0.3s ease;
-      color: ##6c765a;
+      color: #6c765a;
     }
     .about-panel.open {
       bottom: 15px;
@@ -97,3 +97,41 @@
       background: #777;
     }
   </style>
+</head>
+<body>
+  <div>
+    <img src="assets/personalphoto.jpg" alt="Profile Picture" class="profile-img">
+    <h1><span style="color: #fff;">Ban Reqib</span></h1>
+
+    <div class="links">
+      <a href="https://www.linkedin.com/in/ban-reqib/" target="_blank" title="LinkedIn">
+        <img src="assets/linkedin.png" alt="LinkedIn">
+      </a>
+      <a href="https://github.com/banreqib" target="_blank" title="GitHub">
+        <img src="assets/github.png" alt="GitHub">
+      </a>
+    <a href="mailto:banreqib@gmail.com">
+        <img src="assets/email.png" alt="Email">
+      </a>
+    </div>
+  </div>
+
+  <button class="about-btn" onclick="toggleAbout()">About Me</button>
+
+  <div class="about-panel" id="aboutPanel">
+    
+	<p><strong>About Me:</strong></p>
+    <p>Hi..My name is Ban Alreqib!</p>
+	<br>
+    <p><strong>Experience:</strong></p>
+    <p>Internship, Clever Mind</p>
+    <br>
+    <p><strong>Volunteer:</strong></p>
+    <p>Volunteer Social Media Designer, Kasit Team</p>
+    <p>Volunteer Social Media Designer, NCSS</p>
+    <p>Volunteer Social Media Designer, ACM</p>
+    
+    <button class="close-btn" onclick="toggleAbout()">Close</button>
+  </div>
+
+ 
